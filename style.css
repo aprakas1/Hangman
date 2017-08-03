@@ -1,0 +1,143 @@
+
+
+
+
+body {
+  background: #00004d;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color:white;
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+
+.wrappper{
+  @include clear;
+  width:100%;
+  margin:0 auto;
+
+}
+
+#hold {
+
+  position:relative;
+  top:150px;
+  width:100%;
+}
+
+
+h1, h2, h3 {
+	  font-family: 'Press Start 2P', cursive;
+	font-weight: 100;
+	letter-spacing:1px;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 400%;
+}
+
+h2 {
+	font-size: 100%;
+}
+
+p{
+  font-size: 70%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#alphabet {
+ 
+  margin:15px auto;
+  padding:0;
+
+  max-width:75%;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:40px;
+  height:30px;
+  padding-top:10px;
+  background:white;
+  color:#00004d;
+  cursor:pointer;
+  font-family: 'Press Start 2P', cursive;
+  border: solid 1px white;
+    
+   
+}
+
+#my-word {
+  margin: 0;
+  width:38%;
+  position:relative;
+  top:-63px;
+  right:-605px;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+#catagoryName{
+  position:relative;
+  
+  top:50px;
+  width:40%;
+  right:-30%;
+
+}
+
+button{
+  
+  background:white;
+  color:#00004d;
+  border: solid 1px white;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:80%;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: white 1px;
+  font-family: 'Press Start 2P', cursive;
+  
+}
+
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+#my-word{
+  padding:10px;
+  width:20%;
+}
+  }
+
+  @media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+#my-word{
+  padding:-50px;
+  width:50%;
+  }}
